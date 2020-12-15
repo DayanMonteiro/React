@@ -13,12 +13,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.min.js"></script>
 
     <script>
-        var h1 = React.createElement('h1', null, [ 
-        React.createElement('span', null, 'Texto do span'
-        ),
+        var h1 = React.createElement('h1', null, [
+        React.createElement('span', null, React.createElement(
+            'i', null, 'Itálico'
+        )),
         React.createElement('span', null, 'Texto do span 2')
         ])
-        ReactDOM.render(h1, document.getElementById('app'))
+        React.render(h1, document.getElementById('app'))
         console.log(h1)
     </script>
 
