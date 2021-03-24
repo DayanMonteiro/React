@@ -4,6 +4,7 @@ import React from 'react';
 
 import Card from './components/layout/Card';
 
+import ListaAlunos from './components/repeticao/ListaAlunos'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import Aleatorio from './components/basicos/Aleatorio';
@@ -18,6 +19,10 @@ export default () => {
             <h1>Fundamentos React</h1>
 
             <div className="Cards">
+
+            <Card titulo="#06 - Repetição" color="#c0392b">
+                <ListaAlunos></ListaAlunos>      
+            </Card>
 
             <Card titulo="#05 - Componente com Filhos" color="#dfe6e9">
                     <Familia sobrenome="Monteiro" >
