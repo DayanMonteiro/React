@@ -4,6 +4,7 @@ import React from 'react';
 
 import Card from './components/layout/Card';
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
@@ -24,6 +25,9 @@ export default () => {
 
             <div className="Cards">
 
+            <Card titulo="#10 - Comunicação Indireta" color="#00a8ff">
+                <IndiretaPai></IndiretaPai>
+            </Card>
 
             <Card titulo="#09 - Comunicação Direta" color="#4cd137">
                 <DiretaPai></DiretaPai>
