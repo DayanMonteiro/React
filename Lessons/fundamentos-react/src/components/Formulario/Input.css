@@ -1,0 +1,10 @@
+.Input input {
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.buttonsIni {
+    display: 'flex';
+    flex-direction: 'column';
+}
