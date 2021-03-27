@@ -9,24 +9,3 @@
     font-size: 2.1em;
     overflow: hidden;
 }
-
-.button:active {
-    background-color: #ccc;
-}
-
-.button.active {
-    grid-column: span 2;
-}
-
-.button.triple {
-    grid-column: span 3;
-}
-
-.button.operation {
-    background-color: #1e90ff;
-    color: #fff;
-}
-
-.button.operation:active {
-    background-color: #2d98da;
-}
