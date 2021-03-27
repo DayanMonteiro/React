@@ -1,0 +1,13 @@
+:root {
+    --bg-button: #dfe4ea;
+    --border-button: solid 1px #57606f;
+}
+
+.button {
+    font-size: 1.4rem;
+    background-color: var(--bg-button);
+    border: none;
+    border-right: var(--border-button);
+    border-bottom: var(--border-button);
+    outline: none;
+}
