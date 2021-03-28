@@ -3,9 +3,11 @@ import React from 'react';
 const Home = props => (
     <div className="Home" >
         <h1>Início</h1>
-        <p>Bem vindo!</p>
+        <h2>Bem vindo!</h2>
     </div>
-
 )
 
 export default Home 
+
+{/* documentação
+ https://reactrouter.com/web/guides/quick-start */}
